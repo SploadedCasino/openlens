@@ -23,3 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
     delay += 100;
   });
 });
+
+document.addEventListener('contextmenu', function(e) {
+    e.preventDefault();
+});
